@@ -6,6 +6,8 @@ Since the code base needs to be open before the relase of the paper itself. I wi
 
 ## How to Run
 
+**Disclaimer**, the priority generator currently provided in this repository has the possibility of generating equal values. Which **will** result in servers to print an error message if an equality situation happens. In that case, just restart the experiment again. If you want, an easy way to distinguish equal priorities could be to check GUID values.
+
 Running the application for test purposes is very easy. There are two ways you may want to do this. First one is to run it locally, which I'd suggest, but may not be very optimal depending on the number of parallel cores you have (Virtual Cores Should not be accounted for). Second one is to run on a cloud environment, I will give an example for running it on AWS.
 
 **Before starting, it is required to decide on how many server-client combos you want to run. Which you will be defining under WANSettings.json file. Each server added there represents a couple, and each server should have the same ip to connect to.Because they will be putting up their channels on to the same server.** But considering that the communication is not optimal, you may want to change it, then depending on your design, the settings could be different.

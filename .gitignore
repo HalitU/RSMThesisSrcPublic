@@ -9,6 +9,7 @@
 # Test results
 /Output/2PC
 /Output/CP
+/Output/Client
 
 # db
 /baseService/Migrations
