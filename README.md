@@ -4,6 +4,10 @@ This repository includes the thesis study I have done in Istanbul Technical Univ
 
 Since the code base needs to be open before the relase of the paper itself. I will be putting the links for the thesis, and the published research paper later on.
 
+## Related Research Paper
+Enhancing Two Phase-Commit Protocol for Replicated State Machines
+https://ieeexplore.ieee.org/document/9092340
+
 ## How to Run
 
 **Disclaimer**, the priority generator currently provided in this repository has the possibility of generating equal values. Which **will** result in servers to print an error message if an equality situation happens. In that case, just restart the experiment again. If you want, an easy way to distinguish equal priorities could be to check GUID values.
